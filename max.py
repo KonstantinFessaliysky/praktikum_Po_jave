@@ -4,3 +4,9 @@ def lesson2(numbers):
         if numbers[i]>m:
             m = numbers[i]
     return m
+
+a = int(input())
+num = [0]*a
+for i in range(a):
+    num[i] = int(input())
+print(lesson2(num))
